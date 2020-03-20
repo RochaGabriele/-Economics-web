@@ -1,0 +1,339 @@
+.swal-button {
+		background-color: #00b073;
+}
+.swal-overlay {
+  background-color: rgba(0, 176, 115, 0.4);
+}
+*{
+	padding: 0;
+	margin:0;
+	
+}
+
+@font-face{
+	font-family:Marvel;
+	src:url(../fontes/MavenPro-Regular.ttf);		
+}
+
+@font-face{
+	font-family:Mregular;
+	src:url(../fontes/Montserrat-Regular.otf);
+
+}
+@font-face{
+	font-family:Leo;
+	src:url(../fontes/LeoSemiRounded-Bold.ttf);
+
+}
+@font-face{
+	font-family:LeoLight;
+	src:url(../fontes/LeoSemiRounded-Light.ttf);
+
+}
+
+body{
+	background-image: url(../imagens/fundo.svg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: Marvel;
+}
+
+.cabecalho{
+	margin-top: 20px;
+	display: flex;
+	justify-content: left;
+}
+.foot{
+	position: relative;
+	top: 70px;
+
+	
+}
+
+.img-icons{
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+}
+.name-site{
+	font-family: Leo;
+	font-size: 30px;
+	padding-bottom:0px;
+ 	color: #488888;
+}
+
+
+form{
+	width: 90%;
+	
+}
+.txt-saudacao{
+	font-family: Mregular;
+	font-size:40px;
+	text-align: center;
+
+
+}
+.elementos{
+
+	height: 600px;
+	margin-top: 20px;
+	
+}
+.formulario{
+	/*rgba(0,150,136,0.4)
+	*/
+ 	position: relative;
+ 	top:30px;
+	display: flex;
+	text-align: justify;
+	justify-content: center;
+	align-items: center;
+	
+	
+	
+}
+.midia{
+	width:60px;
+	height: 60px;
+	border-radius: 20px;
+	text-decoration: none;
+}
+
+
+.link{
+	color:#507890;
+
+}
+.link:hover{
+	text-decoration: none;
+}
+
+.login-svg{
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+}
+
+.coluna1{
+	position: relative;
+	top: 30px;
+
+}
+.login-svg img{
+	width: 500px;
+	height: 400px;
+	
+
+}
+.perfil{
+	width:100%;
+	display: flex;
+	justify-content: center;
+
+}
+
+.font{
+	font-family: Mregular;
+	font-size:25px;
+
+
+}
+.log-cad{
+	font-family: Mregular;
+	color:#297d7d;
+
+}
+
+.cad{
+	margin-bottom: 20px;
+	font-family: Mregular;
+	font-size:17px; 
+}
+a{
+	font-family: Mregular;
+	color:#00b073;
+}
+ a:hover{
+	text-decoration: none;
+	color:#000;
+
+} 
+.btn{	
+
+	text-align: center;
+	font-family: Mregular;
+	font-size:18px; 
+	color: #fff;
+	text-shadow: 2px 2px 2px #000;
+	background-image: linear-gradient(to right,#00897b,#009688,#00897b);
+	width: 70%;
+	position: relative;
+	left: 15%;
+	height: 40px;
+}
+
+.btn:hover{
+	background-image: linear-gradient(to right,#297d7d,#188070,#297d7d);
+}
+.btn:focus{
+	box-shadow: none;
+	border: 2px solid #488888; 
+} 
+
+.form-control{
+	border:none;
+	border-bottom: 1px solid #00b073;
+	border-radius: 0px;
+	background-color: transparent;
+}
+
+.form-control:focus{
+	background-color: transparent;	
+	box-shadow: none;
+	border-bottom: 2px solid #00e494; 
+}
+
+.caixinha{
+	 display:flex;
+	 justify-content: left;
+	 align-items: center;
+}
+
+.namesex{
+	font-family: Marvel;
+	font-size: 25px;
+}
+
+.foot{
+	transform: translateY(-50%);
+	width:100%;
+	text-align: left;
+
+}
+
+.midia{
+	display:inline-flex;
+	width:60px;
+	height: 60px;
+	background-color:#f1f1f1;
+	margin:10px;
+	border-radius:40%;
+	box-shadow: 0 5px 15px -6px rgba(0,0,0,200);
+	color:#3498db;
+	overflow: hidden;
+	position: relative;
+	text-align: left;
+	justify-content:center;
+	
+
+}
+
+.midia h1{
+	line-height: 60px;
+	font-size:26px;
+	transition: 0.2s linear;
+
+}
+
+.midia:hover h1{
+	transform: scale(1.3);
+	color:#ffffff;
+	position: relative;
+	z-index: 2;
+}
+
+.midia::before{
+	content:"";
+	position:absolute;
+	width:120%;
+	height: 120%;
+	border-radius: 30px;
+	background-color:#3498db;
+	transform:rotate(45deg);
+	left:-110%;
+	top:90%;
+}
+
+.midia:hover::before{
+	animation: icons 0.7s 1;
+	top: -10%;
+	left: -10%;
+}
+
+
+
+@keyframes icons{
+	0%{
+		top: -90%;
+		left:-110%;
+	}50%{
+		top: 30%;
+		left:10%;
+	}100%{
+		top: -10%;
+		left:-10%;
+
+	}
+
+}
+
+
+@media screen and (max-width:1000px){
+	form{
+	width: 100%;
+	
+	}
+	.text-saudacao{
+		font-size:38px;
+		margin:8px 0;
+	}
+	.font{
+		font-size:26px;
+	}
+	.devices-svg img{
+		position: relative;
+		top:70px;
+		left:10%;
+		width: 450px;
+	}
+	.form-control{
+		background-color: transparent;
+	}
+	
+
+} 
+
+@media screen and (max-width:849px){
+	.elementos{
+		margin-top: 10px;
+	}
+	.txt-saudacao{
+		font-size:30px;
+		margin:8px 0;
+	}
+	.font{
+		font-size:20px;
+	}
+	.img-dvc{
+		display: none;
+	}
+	.devices-svg{
+		display:none;
+	}
+	form{
+		width: 80%;
+	}
+	.estado{
+		width: 40%;
+	}
+	body{
+		background: none;
+	}
+	
+}
+
