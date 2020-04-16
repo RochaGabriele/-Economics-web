@@ -1,0 +1,117 @@
+html ,body{
+  overflow-x: hidden;
+}
+.test{
+  height: 600px;
+  width:700px;
+	margin-right: -100px;
+ 	margin-top: -100px;
+}
+
+.line{
+	margin-top: 110px;
+}
+.square{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	width: 300px ;
+	height: 340px;
+	border-radius: 10px;
+	margin-top: -20px;
+	box-shadow: 10px 20px 20px 0px rgba(212, 205, 205,1);
+  
+}
+.one{
+	background-image: url('../imagens/celu.png');
+	background-size: cover;
+	
+
+}
+.two{
+	
+		background-image: url('../imagens/reuniao.png');
+	
+	background-size: cover;
+}
+.three{
+
+		background-image: url('../imagens/graficos.png');
+	background-size: cover;
+
+}
+.four{
+	background-image: url('../imagens/cre.jpg');
+	background-size: cover;
+
+}
+.kk{
+	background-image: linear-gradient(90deg, rgba(69,93,122,1) 17%, rgba(69,99,138,1) 61%, rgba(104,135,162,1) 88%);
+
+}
+.topics{
+	font-size: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	 font-family: 'Poiret One', cursive;
+
+
+   
+
+}
+#conselho{
+	font-size: 60px;
+}
+#log{
+	font-size: 60px;
+}
+#plan{
+	font-size: 60px;
+}
+#Dicas{
+	font-size: 60px;
+}
+#comeco{
+	margin-top: 100px;
+	margin-bottom:  200px;
+	 font-family: 'Poiret One', cursive;
+  
+	
+
+}
+#po{
+
+	margin-top: 150px;
+	margin-bottom:  250px;	
+}
+#li{
+	
+	font-size: 27px;
+	color: white;
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 20px;
+   font-family: 'Poiret One', cursive;
+
+
+}
+
+.barreira{
+ background-color: rgba(98,98,98,0.2);
+  height: 110px;
+  margin: 30px;
+ text-decoration: none; 
+ border-radius: 10px ;
+ border-color:  rgba(98,98,98,1)
+
+
+}
+.barreira:hover{
+	background-color: rgba(98,98,98,0.7);
+
+}
+a:hover {
+	text-decoration: none; 
+ 
+}
